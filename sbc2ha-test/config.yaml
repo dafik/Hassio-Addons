@@ -1,6 +1,6 @@
-name: "sbc2ha-test"
+name: "sbc2ha"
 description: "Single board computer 2 home assistant"
-version: "0.0.5"
+version: "0.0.6"
 slug: "sbc2ha"
 init: false
 arch:
@@ -10,12 +10,7 @@ arch:
   - armv7
   - i386
 url: https://github.com/dafik/Hassio-Addons/tree/main/sbc2ha-test
-webui: http://[HOST]:[PORT:5006]
-ports:
-  8080/tcp: 5006
-ports_description:
-  8080/tcp: Port to access sbc2ha
-image: docker.io/sbc2ha/sbc2ha
+image: docker.io/sbc2ha/sbc2ha-ha-addon
 hassio_api: true
 hassio_role: default
 ingress: true
@@ -23,5 +18,5 @@ ingress_port: 8080
 options:
   pigpio_host: null
 schema:
-  pigpio_host: match(^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$)
+  pigpio_host: str
 
