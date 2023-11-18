@@ -16,8 +16,8 @@ ports:
 ports_description:
   8080/tcp: Port to access sbc2ha
 image: docker.io/sbc2ha/sbc2ha
-ingress: true
-ingress_port: 8080
+#ingress: true
+#ingress_port: 8080
 options:
   pigpio_host: null
 schema:
