@@ -12,7 +12,7 @@ arch:
 url: https://github.com/dafik/Hassio-Addons/tree/main/sbc2ha-test
 webui: http://[HOST]:[PORT:8080]
 ports:
-  8080/tcp: 5005
+  8080/tcp: 5006
 ports_description:
   8080/tcp: Port to access sbc2ha
 image: docker.io/sbc2ha/sbc2ha
