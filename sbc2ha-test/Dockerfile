@@ -9,5 +9,7 @@ WORKDIR /app
 COPY sbc2ha.jar  ./
 COPY sbc.yaml ./config.yaml
 
+EXPOSE 8080
+
 CMD java -Ddiozero.devicefactory=com.diozero.internal.provider.pigpioj.PigpioJDeviceFactory  -DusePwmFadingLed=true -jar sbc2ha.jar /app/config.yaml
 
