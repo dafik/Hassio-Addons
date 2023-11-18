@@ -18,8 +18,8 @@ ports_description:
 image: docker.io/sbc2ha/sbc2ha
 hassio_api: true
 hassio_role: default
-#ingress: true
-#ingress_port: 8080
+ingress: true
+ingress_port: 8080
 options:
   pigpio_host: null
 schema:
