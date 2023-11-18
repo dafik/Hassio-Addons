@@ -10,7 +10,7 @@ arch:
   - armv7
   - i386
 url: https://github.com/dafik/Hassio-Addons/tree/main/sbc2ha-test
-webui: http://[HOST]:[PORT:8080]
+webui: http://[HOST]:[PORT:5006]
 ports:
   8080/tcp: 5006
 ports_description:
