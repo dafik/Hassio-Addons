@@ -1,6 +1,6 @@
 name: "sbc2ha"
 description: "Single board computer 2 home assistant"
-version: "0.0.6"
+version: "0.0.7"
 slug: "sbc2ha"
 init: false
 arch:
